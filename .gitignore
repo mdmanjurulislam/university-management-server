@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 spring.application.name=app-server
 
 
@@ -52,3 +53,6 @@ app.default.faculty.password=Faculty@123
 
 # Student default credentials
 app.default.student.password=Student@123
+=======
+application.properties
+>>>>>>> 366bd13 (first commit)
