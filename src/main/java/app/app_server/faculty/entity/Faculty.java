@@ -24,8 +24,8 @@ import java.time.LocalDate;
 public class Faculty extends BaseEntity {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "faculty_seq")
-    @SequenceGenerator(name = "faculty_seq", sequenceName = "faculty_sequence", initialValue = 1001, allocationSize = 1)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+//    @SequenceGenerator(name = "faculty_seq", sequenceName = "faculty_sequence", initialValue = 1001, allocationSize = 1)
     private Integer id;
 
     @Column(name = "faculty_code", unique = true, length = 50)
